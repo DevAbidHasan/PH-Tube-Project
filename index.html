@@ -1,39 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PH Tube</title>
     <!-- Daisy UI and Tailwind CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <style>
-        
-    </style>
-
-</head>
-<body>
+    <style></style>
+  </head>
+  <body>
     <header>
-        <nav class="w-11/12 mx-auto flex border-b-1 border-[#17171730] py-4 justify-between">
-            <div class="logo flex items-center">
-                <img class="w-4/5 " src="./Logo.png" alt="">
-            </div>
-            <div class="Sort">
-                <button class="bg-[#25252530] btn">Sort By View</button>
-            </div>
-            <div class="blogs">
-                <button class="btn text-white bg-[#FF1F3D]">Blogs</button>
-            </div>
-        </nav>
-        <nav id="category-container" class="flex justify-center gap-x-8 py-5">
-            <div>
-                <button class="btn bg-red-500 text-white btn-sm">All</button>
-            </div>
-        </nav>
+      <nav
+        class="w-11/12 mx-auto flex border-b-1 border-[#17171730] py-4 justify-between"
+      >
+        <div class="logo flex items-center">
+          <img class="w-4/5" src="./Logo.png" alt="" />
+        </div>
+        <div class="Sort">
+          <button class="bg-[#25252530] btn">Sort By View</button>
+        </div>
+        <div class="blogs">
+          <button class="btn text-white bg-[#FF1F3D]">Blogs</button>
+        </div>
+      </nav>
+      <nav id="category-container" class="flex justify-center gap-x-8 py-5">
+        <div>
+          <button class="btn bg-red-500 text-white btn-sm">All</button>
+        </div>
+      </nav>
     </header>
 
+    <section
+      id="video-container"
+      class="w-11/12 mx-auto grid grid-cols-4 gap-8"
+    >
+      <!-- <div class="card bg-base-100">
+        <figure class="relative">
+          <img src="https://i.ibb.co/QPNzYVy/moonlight.jpg" alt="Shoes" />
+          <span class="absolute bottom-2 right-2 text-xs text-white bg-black p-1 rounded-sm">
+            3hrs 56 min ago
+          </span>
+        </figure>
+        <div class=" py-6 flex flex-row gap-5 px-2">
+          <div class="profile">
+            <div class="avatar">
+                <div class="ring-primary ring-offset-base-100 w-8 rounded-full ring ring-offset-2">
+                  <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                </div>
+              </div>
+          </div>
+          <div class="intro space-y-1">
+            <h2 class="text-md font-semibold">Midnight Serenade</h2>
+            <p class="text-xs flex gap-x-1 text-gray-600">Awlad Hossain
+                <img class="w-1/10" src="https://img.icons8.com/?size=96&id=98A4yZTt9abw&format=png" alt="verified badge">
+            </p>
+            <p class="text-xs text-gray-600">
+                91K Views
+            </p>
+          </div>
+        </div>
+      </div> -->
+    </section>
 
     <script src="./script/index.js"></script>
-</body>
+  </body>
 </html>
